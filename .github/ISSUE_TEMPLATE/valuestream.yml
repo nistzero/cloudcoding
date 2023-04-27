@@ -1,0 +1,145 @@
+name: Value Stream 
+description: Create a value stream
+title: "[Descriptive title for the value stream]: "
+labels: ["valuestream"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing the value stream
+  - type: textarea
+    id: description
+    attributes:
+      label: Value Stream Description
+      description: Provide a description of the value stream
+      placeholder: This value stream ...
+      value: None
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Author Contact
+      description: Please provide contact information
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: Industries
+    attributes:
+      label: Industry
+      description: Please select the industry that applies
+      multiple: true
+      options:
+        - Multiple
+        - Banking 
+        - Insurance 
+        - Capital Market
+        - Retail and Consumers
+        - Energy and Utilities
+        - Travel and Transportation
+    validations:
+      required: true
+  - type: dropdown
+    id: value
+    attributes:
+      label: Please selection one or more value
+      multiple: true
+      options:
+        - Reduce cost
+        - Increase revenue
+        - Improve customer experience
+        - Improve employee experience
+        - Reduce IT spend
+  - type: input
+    id: Value stage 1
+    attributes:
+      label: Value Stage One
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 1
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 2
+    attributes:
+      label: Value Stage Two
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 2
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 3
+    attributes:
+      label: Value Stage Three
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 3
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 4
+    attributes:
+      label: Value Stage Four
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 4
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 5
+    attributes:
+      label: Value Stage Five
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 5
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 6
+    attributes:
+      label: Value Stage Six
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 6
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 7
+    attributes:
+      label: Value Stage Seven
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 7
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 8
+    attributes:
+      label: Value Stage Eight
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 8
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 9
+    attributes:
+      label: Value Stage Nine
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 9
+      value: None
+    validations:
+      required: false
+  - type: input
+    id: Value stage 10
+    attributes:
+      label: Value Stage Ten
+      description: Provide the name and/or issue number of the value stage 
+      placeholder: Value stage 10
+      value: None
+    validations:
+      required: false
