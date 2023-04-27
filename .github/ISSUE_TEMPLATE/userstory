@@ -1,0 +1,54 @@
+name: User Story
+description: Create a developer's user story
+title: "[Descriptive title for the developer's user story]: "
+labels: ["userstory"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing the user story
+  - type: input
+    id: contact
+    attributes:
+      label: Author Contact
+      description: Please provide contact information
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: input
+    id: stakeholder
+    attributes:
+      label: Participating Stakeholder Proposition
+      description: Please provide participating stakeholder or user
+      placeholder: As a Store Employee
+    validations:
+      required: true
+  - type: input
+    id: goal
+    attributes:
+      label: User Goal 
+      description: Please provide a short description of the goal (desire) of the stakeholder or user
+      placeholder: I want to ...
+    validations:
+      required: true
+  - type: input
+    id: reason
+    attributes:
+      label: User Reason
+      description: Please provide a short reason for the user story
+      placeholder: So that ...
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Please provide a check list of acceptance criteria
+      placeholder: |
+        [] Acceptance Criteria One
+        [] Acceptance Criteria Two
+        [] Acceptance Criteria Two
+    validations:
+      required: true
