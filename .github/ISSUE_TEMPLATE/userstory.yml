@@ -20,7 +20,7 @@ body:
   - type: input
     id: stakeholder
     attributes:
-      label: Participating Stakeholder Proposition
+      label: Participating Stakeholder or User
       description: Please provide participating stakeholder or user
       placeholder: As a Store Employee
     validations:
