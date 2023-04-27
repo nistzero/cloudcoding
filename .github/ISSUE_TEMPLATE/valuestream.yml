@@ -81,7 +81,7 @@ body:
     validations:
       required: false
   - type: input
-    id: valuestage3
+    id: valuestage4
     attributes:
       label: Value Stage Four
       description: Provide the name and/or issue number of the value stage 
