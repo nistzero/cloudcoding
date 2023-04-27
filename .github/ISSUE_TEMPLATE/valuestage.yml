@@ -1,0 +1,76 @@
+name: Value Stage 
+description: Create a value stage
+title: "[Descriptive title for the value stage]: "
+labels: ["valuestage"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing the value stage
+  - type: textarea
+    id: description
+    attributes:
+      label: Value stage Description
+      description: Provide a description of the value stage
+      placeholder: This value stage ...
+      value: None
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Author Contact
+      description: Please provide contact information
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: Industries
+    attributes:
+      label: Industry
+      description: Please select the industry that applies
+      multiple: true
+      options:
+        - Multiple
+        - Banking 
+        - Insurance 
+        - Capital Market
+        - Retail and Consumers
+        - Energy and Utilities
+        - Travel and Transportation
+    validations:
+      required: true
+  - type: input
+    id: stakeholder
+    attributes:
+      label: Participating Stakeholder Proposition
+      description: Please provide comma separate participating stakeholder
+      placeholder: Store Employee, Inventory Manager, Retail Shopper
+    validations:
+      required: true
+  - type: input
+    id: entrance_criteria
+    attributes:
+      label: Entrance Criteria
+      description: Please provide a short description of entrance acceptance criteria
+      placeholder: Charges paid
+    validations:
+      required: true
+  - type: input
+    id: exit_criteria
+    attributes:
+      label: Exit Criteria
+      description: Please provide a short description of exit acceptance criteria
+      placeholder: Product delivered
+    validations:
+      required: true
+  - type: input
+    id: value
+    attributes:
+      label: Value Proposition
+      description: Please provide a short description of value proposition
+      placeholder: Customer got the product
+    validations:
+      required: true
