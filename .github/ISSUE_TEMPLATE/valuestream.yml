@@ -54,7 +54,7 @@ body:
         - Improve employee experience
         - Reduce IT spend
   - type: input
-    id: Value stage 1
+    id: valuestage1
     attributes:
       label: Value Stage One
       description: Provide the name and/or issue number of the value stage 
@@ -63,7 +63,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 2
+    id: valuestage2
     attributes:
       label: Value Stage Two
       description: Provide the name and/or issue number of the value stage 
@@ -72,7 +72,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 3
+    id: valuestage3
     attributes:
       label: Value Stage Three
       description: Provide the name and/or issue number of the value stage 
@@ -81,7 +81,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 4
+    id: valuestage3
     attributes:
       label: Value Stage Four
       description: Provide the name and/or issue number of the value stage 
@@ -90,7 +90,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 5
+    id: valuestage5
     attributes:
       label: Value Stage Five
       description: Provide the name and/or issue number of the value stage 
@@ -99,7 +99,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 6
+    id: valuestage6
     attributes:
       label: Value Stage Six
       description: Provide the name and/or issue number of the value stage 
@@ -108,7 +108,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 7
+    id: valuestage7
     attributes:
       label: Value Stage Seven
       description: Provide the name and/or issue number of the value stage 
@@ -117,7 +117,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 8
+    id: valuestage8
     attributes:
       label: Value Stage Eight
       description: Provide the name and/or issue number of the value stage 
@@ -126,7 +126,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 9
+    id: valuestage9
     attributes:
       label: Value Stage Nine
       description: Provide the name and/or issue number of the value stage 
@@ -135,7 +135,7 @@ body:
     validations:
       required: false
   - type: input
-    id: Value stage 10
+    id: valuestage10
     attributes:
       label: Value Stage Ten
       description: Provide the name and/or issue number of the value stage 
